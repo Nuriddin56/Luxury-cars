@@ -1,0 +1,139 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v21-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-attachment: fixed;
+}
+
+section a {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+a {
+  font-size: 25px;
+}
+
+#menu {
+  background-image: url(../images/menu.image.jpg);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section a:hover {
+  background-color: lightgray;
+  transform: scale(1.05);
+}
+
+#bmw {
+  background-image: url(../images/bmw.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#mercedes {
+  background-image: url(../images/mercedes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#rangerover {
+  background-image: url(../images/rangerover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#audi_a8 {
+  background-image: url(../images/audi_a8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#porsche911 {
+  background-image: url(../images/porsche-911.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
